@@ -1,0 +1,69 @@
+<assembly xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2 http://maven.apache.org/xsd/assembly-1.1.2.xsd">
+  <id>binary</id>
+  <formats>
+    <format>jar</format>
+  </formats>
+  <includeBaseDirectory>false</includeBaseDirectory>
+  <moduleSets>
+    <moduleSet>
+    
+      <!-- Enable access to all projects in the current multimodule build! -->
+      <useAllReactorProjects>true</useAllReactorProjects>
+      
+      <!-- Now, select which projects to include in this module-set. -->
+      <includes>
+        <include>org.jboss.javaee:jboss-ejb-api-3.0</include>
+        <include>org.jboss.javaee:jboss-jacc-api-1.1</include>
+        <include>org.jboss.javaee:jboss-jad-api-1.2</include>
+        <include>org.jboss.javaee:jboss-jaspi-api-1.0</include>
+        <include>org.jboss.javaee:jboss-jaxr-api-1.0</include>
+        <include>org.jboss.javaee:jboss-jca-api-1.5</include>
+        <include>org.jboss.javaee:jboss-jms-api-1.1</include>
+        <include>org.jboss.javaee:jboss-transaction-api-1.0.1</include>
+      </includes>
+      <binaries>
+        <unpackOptions>
+          <excludes>    
+            <exclude>META-INF/**</exclude>
+          </excludes>
+        </unpackOptions>
+        <outputDirectory>/</outputDirectory>
+        <unpack>true</unpack>
+      </binaries>
+    </moduleSet>
+  </moduleSets>
+  <!-- 
+  <fileSets>
+    <fileSet>
+      <directory>../jboss-ejb-api/target/classes</directory>
+      <outputDirectory>/</outputDirectory>
+    </fileSet>
+    <fileSet>
+      <directory>../jboss-jacc-api/target/classes</directory>
+      <outputDirectory>/</outputDirectory>
+    </fileSet>
+    <fileSet>
+      <directory>../jboss-jad-api/target/classes</directory>
+      <outputDirectory>/</outputDirectory>
+    </fileSet>
+    <fileSet>
+      <directory>../jboss-jaxr-api/target/classes</directory>
+      <outputDirectory>/</outputDirectory>
+    </fileSet>
+    <fileSet>
+      <directory>../jboss-jca-api/target/classes</directory>
+      <outputDirectory>/</outputDirectory>
+    </fileSet>
+    <fileSet>
+      <directory>../jboss-jms-api/target/classes</directory>
+      <outputDirectory>/</outputDirectory>
+    </fileSet>
+    <fileSet>
+      <directory>../jboss-transaction-api/target/classes</directory>
+      <outputDirectory>/</outputDirectory>
+    </fileSet>
+  </fileSets>
+   -->
+</assembly>
