@@ -36,7 +36,6 @@
     <module>jboss-jms-api</module>
     <module>jboss-transaction-api</module>
     <module>jboss-jaspi-api</module>
-    <module>jboss-javaee</module>
   </modules>
   
   <dependencyManagement>

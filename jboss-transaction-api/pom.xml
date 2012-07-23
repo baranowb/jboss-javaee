@@ -5,7 +5,7 @@
     <version>5.0.2-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>jboss-transaction-api-1.0.1</artifactId>
+  <artifactId>jboss-transaction-api-1.0.1_spec</artifactId>
   <packaging>jar</packaging>
   <name>JBoss Transaction 1.0.1 API</name>
   <url>http://www.jboss.org</url>
