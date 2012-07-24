@@ -24,8 +24,6 @@
     <version.jboss.logging.spi>2.0.5.GA</version.jboss.logging.spi>
     <version.jboss.web>2.1.1.GA</version.jboss.web>
     <version.jboss.ws.native>3.0.4.GA</version.jboss.ws.native>
-    <!-- modules versions -->
-    <version.jboss.transaction-api>1.0.3-SNAPSHOT</version.jboss.transaction-api>
   </properties>
   
 

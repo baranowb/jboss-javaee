@@ -16,5 +16,4 @@
       <artifactId>activation</artifactId>
     </dependency>
   </dependencies>
-  <version>1.0.2-SNAPSHOT</version>
 </project>
