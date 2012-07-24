@@ -21,4 +21,5 @@
       <artifactId>jboss-logging-spi</artifactId>
     </dependency>    
   </dependencies>
+  <version>1.2.2-SNAPSHOT</version>
 </project>

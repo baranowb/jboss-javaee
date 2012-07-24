@@ -17,4 +17,5 @@
       <artifactId>jboss-common-core</artifactId>
     </dependency>  
   </dependencies>
+  <version>1.5.2-SNAPSHOT</version>
 </project>

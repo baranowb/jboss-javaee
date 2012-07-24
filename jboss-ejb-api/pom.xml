@@ -14,11 +14,11 @@
     <dependency>
       <groupId>org.jboss.javaee</groupId>
       <artifactId>jboss-transaction-api-1.0.1_spec</artifactId>
-      <version>${project.version}</version>
     </dependency>
     <dependency>
       <groupId>org.jboss.ws.native</groupId>
       <artifactId>jbossws-native-jaxrpc</artifactId>
     </dependency>
   </dependencies>
+  <version>3.0.2-SNAPSHOT</version>
 </project>

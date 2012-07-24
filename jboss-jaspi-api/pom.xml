@@ -10,4 +10,5 @@
   <name>JBoss Java Authentication SPI for Containers 1.0-PR API</name>
   <url>http://www.jboss.org</url>
   <description>The Java Authentication SPI for Containers 1.0-PR API classes</description>
+  <version>1.0.2-SNAPSHOT</version>
 </project>
